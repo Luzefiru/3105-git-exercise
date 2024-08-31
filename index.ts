@@ -1,8 +1,8 @@
 import getPrompt from 'prompt-sync';
 const prompt = getPrompt();
 
-console.log('Hello World');
-console.log('I added some changes');
+console.log('こんにちは世界');
+console.log('いくつか変更を加えました');
 
-const name = prompt('Identify yourself: ');
-console.log(`Greetings, ${name}-kun!`);
+const name = prompt('身元を明かしてください: ');
+console.log(`こんにちは, ${name}-くん!`);
